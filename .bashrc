@@ -1,3 +1,12 @@
+################################################
+#                                              #
+#                 Includes                     #
+#                                              #
+################################################
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+fi
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -82,6 +91,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias ls='ls -GFh'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
