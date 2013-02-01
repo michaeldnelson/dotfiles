@@ -75,3 +75,6 @@ bash_prompt() {
 
     PS1="${g}\u@\h${nocolor}:${b}${NEW_PWD}${PS1_PROMPT} "
 }
+
+PROMPT_COMMAND=bash_prompt
+bash_prompt
