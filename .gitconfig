@@ -1,0 +1,9 @@
+[user]
+	name = Michael Nelson
+	email = michael.nelson@pictela.com
+[push]
+	default = tracking
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore_global
